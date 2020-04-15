@@ -1,9 +1,13 @@
 /**
- * 参数config:{ file, callback, name, type, quality, size, width, height}
+ * 参数config:{ file, name, type, quality, size, width, height}
  * file: 必填，input[type=file]选中的照片文件
  * name: 非必填，自定义文件名，不包含后缀(如.jpg)，默认原文件名
  * type: 非必填，图片格式，可选png/jpg，默认原图片格式
  * quality: 非必填，图片质量系数，默认0.92
+ * size: 非必填，图片目标大小，单位kb
+ * width: 非必填，图片目标宽度
+ * height: 非必填，图片目标高度
+ ********************
  * 只传size: 压缩图片至size(单位kb)大小
  * 传width: 根据宽度压缩图片，高度自适应
  * 传height: 根据高度压缩图片，宽度自适应

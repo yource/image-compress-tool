@@ -1,2 +1,2 @@
 # image-compress-tool
-A javascript tool that compresses jpg or png to a smaller size.
+前端js压缩工具
