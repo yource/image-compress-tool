@@ -1,7 +1,7 @@
 {
   "name": "image-compress-tool",
-  "version": "1.0.0",
-  "description": "A javascript tool that compress jpg or png to a smaller size.",
+  "version": "1.0.1",
+  "description": "A javascript compression tool, converts the image into BLOB data through canvas.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
