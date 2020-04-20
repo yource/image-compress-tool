@@ -107,7 +107,7 @@ compressImage({
 ```
 compressImage({
 	file: document.getElementById("avatar").files[0],
-	width: 600
+	height: 400
 }).then((blob,fileName)=>{
 	// ...
 })
